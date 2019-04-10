@@ -10,5 +10,3 @@ RUN apt-get update \
            postgresql-$PG_MAJOR-postgis-$POSTGIS_MAJOR-scripts=$POSTGIS_VERSION \
            postgis=$POSTGIS_VERSION \
       && rm -rf /var/lib/apt/lists/*
-
-
